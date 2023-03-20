@@ -1,8 +1,17 @@
+
+/* the background color here is IMDB's mustard yellow */
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #DBA506
 }
 
 a {
   color: #00B7FF;
+}
+/* Fonts for all headers - current 
+DEV NOTE:  "Express" will show up in this font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lucida", "Monaco", Monospace;
+  font-weight: bold;
 }

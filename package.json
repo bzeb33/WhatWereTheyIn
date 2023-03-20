@@ -6,6 +6,10 @@
     "start": "node ./bin/www",
     "devstart": "SET DEBUG=WhatWereTheyIn: * & nodemon ./bin/www"
   },
+  "engines": {
+    "node": ">=10.23.0",
+    "npm": ">=6.4.0"
+  },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
