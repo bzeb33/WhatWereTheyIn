@@ -1,11 +1,12 @@
 /* GET homepage */
 const homepage = (req, res) => {
-    res.render('index', { title: 'Home' });
+    res.render('wwti-homepage', { title: 'Home' });
 };
 
 /* GET results page */
 const searchResults = (req, res) => {
-    res.render('index', { title: 'Results' });
+    //- Set to WWTI-homepage temporarily
+    res.render('wwti-homepage', { title: 'Results' });
 };
 
 module.exports = {

@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  .row.banner 
+    //- page header that fills the entire width of the screen
+    h1 Welcome to WWTI!
+      small &nbsp;Seriously, what were they in again?
+  .row 
+    //- Container for search bar, spans 12 columns on exra small and small devices/8 col on medium or larger
+    .col-12.col-md-8 
+      //- p Search bar area
+      .input-group
+        .form-outline
+          input#form1.form-control(type='search')
+          label.form-label(for='form1') Search
+        button.btn.btn-primary(type='button')
+          i.fas.fa-search
+
+      
+  //- h1= title
+  //- p Welcome to #{title}
