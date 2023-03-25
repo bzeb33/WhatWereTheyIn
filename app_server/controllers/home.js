@@ -6,7 +6,7 @@ const homepage = (req, res) => {
 /* GET results page */
 const searchResults = (req, res) => {
     //- Set to WWTI-homepage temporarily
-    res.render('wwti-homepage', { title: 'Results' });
+    res.render('search-results', { title: 'Results' });
 };
 
 module.exports = {
