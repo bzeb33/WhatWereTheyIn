@@ -1,6 +1,12 @@
 /* GET homepage */
 const homepage = (req, res) => {
-    res.render('wwti-homepage', { title: 'Home' });
+    res.render('wwti-homepage', { 
+        title: 'What Were They In?',
+        pageHeader: {
+            title: 'What Were They In?',
+            strapline: 'Seriously, what was it?'
+        }
+    });
 };
 
 /* GET results page */

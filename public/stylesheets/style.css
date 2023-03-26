@@ -21,9 +21,8 @@ footer {
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     outline: none;
+    display: block;
 }
-
-
 
 .container .search:hover
 {
@@ -42,6 +41,7 @@ footer {
 {
     text-align: left;
     width:95%;
+    height:32px;
     border: none;
     outline: none;
 }
@@ -49,8 +49,13 @@ footer {
 .btn
 {
     display: inline-block;
-    padding-top: 33px;
-    padding: 30px;
+    padding-top: 15px;
+    padding: 15px;
+    background-color: #008CBA;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size:16px;
 }
 
 a {

@@ -8,11 +8,15 @@ block content
     
   .center
     //- page header that fills the entire width of the screen
-    h1 Welcome to WWTI!
+    h1= pageHeader.title
+
   .center
-    p Seriously, what were they in again?
+    h4= pageHeader.strapline
+
   .search
     .col-12
       input.input(type='text' name='SearchBox')
-      btn.button Search
+      br
+      br
+      button.btn Search
     //- Container for search bar, spans 12 columns on exra small and small devices/8 col on medium or larger
