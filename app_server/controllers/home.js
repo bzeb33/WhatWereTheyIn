@@ -10,12 +10,14 @@ const homepage = (req, res) => {
 };
 
 /* GET results page */
-const searchResults = (req, res) => {
+const results = (req, res) => {
     //- Set to WWTI-homepage temporarily
     res.render('search-results', { title: 'Results' });
 };
 
+
+
 module.exports = {
     homepage,
-    searchResults
+    results
 };

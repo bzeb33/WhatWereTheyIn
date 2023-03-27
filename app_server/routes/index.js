@@ -8,7 +8,7 @@ const ctrlOthers = require('../controllers/others');
 /* GET Homepage & Results */
 // Define location routes and map them to controller functions
 router.get('/', ctrlHome.homepage);
-router.get('/results', ctrlHome.searchResults);
+router.get('/results', ctrlHome.results);
 
 /* GET Other pages */
 // Defining "Others" route
