@@ -64,7 +64,7 @@ a {
 /* Fonts for all headers - current 
 DEV NOTE:  "Welcome to WWTI!" will show up in this font */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lucida", "Monaco", Monospace;
+  font-family: "Lucida", "Monaco", "Candara";
   font-weight: bold;
   text-align: center;
   padding-bottom:20px;
