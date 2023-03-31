@@ -7,3 +7,6 @@ node_modules
 
 # Ignore database file
 app_server/models/db.js
+
+# ignore api information
+app_server/controllers/home.js
