@@ -5,8 +5,8 @@ block content
     h1 {text-align: center;}
     p {text-align: center;}
     div {text-align: center;}
-
-
+  title 
+    Movies
   .row.banner 
     .col-12 
       h1= "Recent films for SEARCH INPUT: "
@@ -14,19 +14,6 @@ block content
     .col-12.col-lg-8 
       p 
         | <br /><br /><br />
-//- Code will (probably resemble the following )
-//- each result in results
-//-   .card
-//-     .card-block
-//-       h4
-//-         a(href="/result") = result.name
-
-//-  The HTML (in the controller) would probably resemble:
-//-  <div class="card">
-//-    <div class="card-block">
-//-      <h4>
-//-        <a href="/result">RESULT NAME</a>
-//-      </h4>
-//-    </div>
-//-  </div>
-//- ... each time for all results
+  body 
+    .movies 
+    script(src='controllers/script.js')

@@ -15,11 +15,16 @@ block content
 
   .search
     .col-12
-      input.input(type='text' name='SearchBox')
+      input.input(type='search' name='search')
       br
       br
       button.btn Search
     //- Container for search bar, spans 12 columns on exra small and small devices/8 col on medium or larger
 
-  .movies 
-    script(src='../controllers/home.js')
+  .movie-cards 
+    .card 
+      .header
+      .body
+
+  //-.movies 
+    script(src='../controllers/home')
