@@ -5,7 +5,7 @@ block content
     h1 {text-align: center;}
     p {text-align: center;}
     div {text-align: center;}
-    
+  
   .center
     //- page header that fills the entire width of the screen
     h1= pageHeader.title
@@ -15,16 +15,13 @@ block content
 
   .search
     .col-12
-      input.input(type='search' name='search')
-      br
-      br
-      button.btn Search
-    //- Container for search bar, spans 12 columns on exra small and small devices/8 col on medium or larger
+      form.form
+        input#search.input(type='text' placeholder='search')
+        br
+        br
+        button.btn Search
+      //- Container for search bar, spans 12 columns on exra small and small devices/8 col on medium or larger
 
-  .movie-cards 
-    .card 
-      .header
-      .body
-
-  //-.movies 
-    script(src='../controllers/home')
+  .movies 
+    ul#movies
+  
