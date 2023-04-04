@@ -3,7 +3,6 @@ const router = express.Router();
 // require the two routes
 const ctrlHome = require('../controllers/home');
 const ctrlOthers = require('../controllers/others');
-const ctrlDB = require('../models/db');
 
 
 /* GET Homepage & Results */

@@ -15,8 +15,6 @@ const results = (req, res) => {
     res.render('search-results', { title: 'Results' });
 };
 
-
-
 module.exports = {
     homepage,
     results
