@@ -1,9 +1,5 @@
 # Ignore node_modules folder
 node_modules
 
-
 # Ignore files related to API keys
 .env
-
-# Ignore database file
-app_server/models/db.js
