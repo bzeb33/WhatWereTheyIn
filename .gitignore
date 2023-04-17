@@ -3,3 +3,6 @@ node_modules
 
 # Ignore files related to API keys
 .env
+
+# ignore database files for now
+app_server/models/db.js

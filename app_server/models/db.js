@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
-// node needs to be upgraded to 14+ after school is done
-// The older version required does not support the nulish coalescing operator ("??")
-const dbURI = 'mongodb://localhost/WhatWereTheyIn';
+const dbURI = 'mongodb://localhost:27017';
 mongoose.connect(dbURI, {useNewUrlParser: true});
 
 const readLine = require ('readline');
@@ -28,7 +26,6 @@ mongoose.connection.on('disconnected', () => {
 const gracefulShutdown = (msg, callback) => {
   mongoose.connection.close( () => {
     console.log(`Mongoose disconnected through ${msg}`);
-    callback();
   });
 };
 
